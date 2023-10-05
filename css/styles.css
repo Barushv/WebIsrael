@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+/* font-family: 'Roboto Condensed', sans-serif; */
+body {
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+/* ============== */
+/* BOTON WHATSAPP */
+/* ============== */
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 100px;
+  right: 100px;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0green, 0blue, 0.3);
+  /* z-index: 100; */
+}
+.btn-wsp:hover {
+  color: #2903fd;
+}
+
+/* ============== */
+/* MENU */
+/* ============== */
+
+#menu a {
+  font-size: 18px;
+  font-weight: bold;
+  /* color: #3f3f3f; */
+}
+
+#menu button {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ============== */
+/* SLIDER DE IMAGENES */
+/* ============== */
+.carousel-inner {
+  max-height: 39rem;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ============== */
+/* QUERIES PANTALLA PEQUEÑAS */
+/* ============== */
+/* 
+@media (max-width: 768px) {
+  #principal {
+    width: 90% !important;
+  }
+  .notas-rapidas {
+    width: 100% !important;
+    text-align: center;
+  }
+} */
+
+a:visited {
+  color: forestgreen;
+}
+
+#mapaHonda {
+  margin: 5px;
+}
+
+/* ============== */
+/* PIE DE PAGINA */
+/* ============== */
+
+li {
+  list-style: none;
+}
+
+.redes-sociales img {
+  flex-wrap: wrap;
+}
+
+.presentacion {
+  text-align: justify;
+}
+
+/* CARDS DE IMAGENES DE AUTOS NUEVOS */
+.divisor {
+  padding: 30px;
+  margin: 10px;
+}
+
+.container-prom {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.tarjeta {
+  width: 300px;
+  height: 600px;
+  margin: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  transition: 0.3;
+}
+
+.tarjeta-header {
+  width: 280px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.tarjeta-img {
+  min-width: 100%;
+  width: auto;
+  height: 100%;
+}
+
+.tarjeta-body {
+  height: 170px;
+  padding: 15px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.tarjeta-local {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.tarjeta-titulo {
+  font-size: 25px;
+  margin: 15px 0;
+}
+
+.tarjeta-texto {
+  font-size: 12px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.tarjeta-footer {
+  margin-top: 180px;
+  text-align: center;
+  background-color: #000;
+}
+
+.tarjeta-footer a {
+  color: #fff;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.tarjeta-footer a:hover {
+  color: crimson;
+}
+
+.tarjeta-footer a:visited {
+  color: chartreuse;
+}
+
+.tarjeta-1 .card-footer {
+  background-color: blue;
+}
+
+.tarjeta-1 .tarjeta-local {
+  color: blue;
+}
+
+.tarjeta-2 .tarjeta-footer {
+  background-color: #d12761;
+}
+
+.tarjeta-2 .tarjeta-local {
+  color: #d12761;
+}
+
+.tarjeta:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.pst-vtas {
+  padding-top: 150px;
+}
+
+/* PARA EL FORMULARIO DE CONTACTO */
+
+.body-form {
+  background-color: black;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  padding: 15px;
+}
+
+.contenido {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+.logohonda {
+  text-align: center;
+  font-size: 3em;
+}
+
+.logohonda span {
+  color: #b70e21;
+}
+
+.contacto-agrupar {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+.contacto-agrupar > * {
+  padding: 1em;
+}
+
+.contacto-form {
+  background: #222222;
+}
+
+.contacto-form form {
+  margin: 0;
+  padding: 1em;
+}
+
+.contacto-form form button,
+.contacto-form form input,
+.contacto-form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #d63031;
+  outline: 0;
+  color: #fff;
+}
+
+.contacto-form form button {
+  background: #b70e21;
+  color: #000;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contacto-form form button:hover,
+.contacto-form form button:focus {
+  background: #d63031;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+.contacto-info {
+  background: #000;
+}
+
+.contacto-info h4,
+.contacto-info ul,
+.contacto-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contacto-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacto-info ul li {
+  padding: 0.3em;
+}
+
+/* FORMULARIO DE CONTACTO QUERIES */
+
+@media (min-width: 700px) {
+  body {
+    padding: 0.4rem;
+  }
+  .contacto-agrupar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contacto-agrupar > * {
+    padding: 2em;
+  }
+}
+
+.contacto-info h4,
+.contacto-info ul,
+.contacto-info p {
+  padding: 1em;
+  text-align: left;
+}
