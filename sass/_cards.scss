@@ -1,0 +1,103 @@
+/* CARDS DE IMAGENES DE AUTOS NUEVOS */
+.divisor {
+  padding: 30px;
+  margin: 10px;
+}
+
+.container-prom {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.tarjeta {
+  width: 300px;
+  height: 600px;
+  margin: 25px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  transition: 0.3;
+}
+
+.tarjeta-header {
+  width: 280px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.tarjeta-img {
+  min-width: 100%;
+  width: auto;
+  height: 100%;
+}
+
+.tarjeta-body {
+  height: 170px;
+  padding: 15px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.tarjeta-local {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.tarjeta-titulo {
+  font-size: 25px;
+  margin: 15px 0;
+}
+
+.tarjeta-texto {
+  font-size: 12px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.tarjeta-footer {
+  margin-top: 180px;
+  text-align: center;
+  background-color: #000;
+}
+
+.tarjeta-footer a {
+  color: #fff;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.tarjeta-footer a:hover {
+  color: crimson;
+}
+
+.tarjeta-footer a:visited {
+  color: chartreuse;
+}
+
+.tarjeta-1 .card-footer {
+  background-color: blue;
+}
+
+.tarjeta-1 .tarjeta-local {
+  color: blue;
+}
+
+.tarjeta-2 .tarjeta-footer {
+  background-color: #d12761;
+}
+
+.tarjeta-2 .tarjeta-local {
+  color: #d12761;
+}
+
+.tarjeta:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.pst-vtas {
+  padding-top: 150px;
+}
